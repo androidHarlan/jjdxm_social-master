@@ -51,13 +51,13 @@
             app:icons="@drawable/jjdxm_social_icon_wechat_timeline" />
 
         <com.dou361.social.view.ShareButton
-            android:id="@+id/social_share_sb_weibo"
+            android:id="@+id/social_share_sb_qq"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:gravity="center"
-            app:description="@string/social_share_weibo"
-            app:icons="@drawable/jjdxm_social_icon_weibo" />
+            app:description="@string/social_share_qq"
+            app:icons="@drawable/jjdxm_social_icon_qq" />
 
 
     </LinearLayout>
@@ -70,14 +70,7 @@
         android:paddingLeft="25dp"
         android:paddingRight="25dp">
 
-        <com.dou361.social.view.ShareButton
-            android:id="@+id/social_share_sb_qq"
-            android:layout_width="0.0dip"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.0"
-            android:gravity="center"
-            app:description="@string/social_share_qq"
-            app:icons="@drawable/jjdxm_social_icon_qq" />
+
 
         <com.dou361.social.view.ShareButton
             android:id="@+id/social_share_sb_qzone"
@@ -87,6 +80,14 @@
             android:gravity="center"
             app:description="@string/social_share_qzone"
             app:icons="@drawable/jjdxm_social_icon_qzone" />
+        <com.dou361.social.view.ShareButton
+            android:id="@+id/social_share_sb_weibo"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            app:description="@string/social_share_weibo"
+            app:icons="@drawable/jjdxm_social_icon_weibo" />
 
         <com.dou361.social.view.ShareButton
             android:id="@+id/social_share_sb_more"
